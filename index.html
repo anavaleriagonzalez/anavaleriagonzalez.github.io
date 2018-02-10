@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=300'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -10,6 +10,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
@@ -20,19 +22,17 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
-    <script src="assets/js/Chart.js"></script>
+
 
 
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
 
-	<div id="section-topbar">
+	<div id="section-topbar" class="fixed-top">
 		<div id="topbar-inner">
 			<div class="container">
-				<div class="row">
+				<div class="">
 					<div class="dropdown">
 						<ul id="nav" class="nav">
 							<li class="menu-item"><a  href="assets/files/CV_ANAG.pdf" title="Download full CV"><i class="icon-file"></i></a></li>
@@ -42,7 +42,7 @@
 						</ul><!--/ uL#nav -->
 					</div><!-- /.dropdown -->
 
-					<div class="clear"></div>
+					<!-- <div class="clear"></div> -->
 				</div><!--/.row -->
 			</div><!--/.container -->
 
@@ -52,17 +52,17 @@
 
 	<div id="headerwrap">
 		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
+			<div class=" centered">
+				<div class="">
           <br>
           <h1><b>Ana Valeria González</b> </span></h1>
-    			<p style="font-size:130%;"><b>PhD student in Natural Language Processing at <a href="https://coastalcph.github.io/">CoAStal</a> and Data Scientist at <a href="https://botxo.co"> BotXO </a>
+    			<p class="intro-para" style="font-size:130%;"><b>PhD student in Natural Language Processing at <a href="https://coastalcph.github.io/">CoAStal</a> and Data Scientist at <a href="https://botxo.co"> BotXO </a>
     				<!--/.<br>
     				 Email: ana@di.ku.dk | ag@botxo.co  --> </b>
 
           </p>
-            <div style="position:relative; top:40px; left:20px;">
-            <img class="img-circle" src="assets/img/myphoto.jpg"  width="30%" border="20">
+            <div class="img-div" >
+            <img class="img-circle" src="assets/img/myphoto.jpg" id="center-img">
             </div>
 				</div><!--/.col-lg-12 -->
 			</div><!--/.row -->
@@ -75,20 +75,23 @@
 <!--/.Start slideshow -->
 
 <div class="w3-content w3-display-container" style="max-width:100%">
-
+  <div class="slide_move">
+      <div class="arrows prev w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="arrows next w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+  </div>
       <div class="mySlides">
             <section id="about" name="about"></section>
 
             <div id="intro">
               <div class="container">
-                <div class="row">
+                <div class="">
 
-                  <div class="col-lg-2 col-lg-offset-1">
+                  <div class=" header-div">
                     <h2 style="color:#2c3e50;font-size:150%;"> <b>ABOUT ME</b></h2>
                     <hr align="left" width="100%" >
                   </div>
-                  <div class="col-lg-6">
-                    <p style="color:#2c3e50;font-size:120%;">I'm a first year PhD student working at the University of Copenhagen under the supervision of Anders Søgaard  and Isabelle Augenstein.
+                  <div class=" slide-style">
+                    <p class="slide-p" >I'm a first year PhD student working at the University of Copenhagen under the supervision of Anders Søgaard  and Isabelle Augenstein.
 
           ​
 
@@ -103,7 +106,7 @@
 
                           </div>
 
-                      <div class="col-lg-3">
+                      <div class="">
                                 <p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
                               </div>
 
@@ -118,7 +121,7 @@
 
             <div id="intro">
               <div class="container" width="150%">
-                <div class="row">
+                <div class="">
 
                   <div >
                     <h2 style="color:#2c3e50;font-size:150%;"> <b>EDUCATION</b></h2>
@@ -131,7 +134,7 @@
 
                   <div class='allboxes'>
 
-                    <div class="currentbox1">
+                    <div class="currentbox1 ">
                       <h3> PhD. in Natural Language Processing and Machine Learning </h3>
                       <h4><b>University of Copenhagen </b></h4>
                       <h4> 2018-2021</h4>
@@ -163,7 +166,7 @@
                         <div class="currentbox1">
                           <h3> B.Sc. in Mathematics </h3>
                           <h4><b>Universidad Abierta y a Distancia de México </b> </h4>
-                          <h4> 2016-2021 </h4>
+                          <h4> 2017-2022 </h4>
 
 
 
@@ -200,7 +203,7 @@
 
                   <div id="intro">
                     <div class="container">
-                      <div class="row">
+                      <div class="">
 
                         <div >
                           <h2 style="color:#2c3e50;font-size:150%;"> <b>EXPERIENCE</b></h2>
@@ -245,7 +248,7 @@
                             <h4> 2016-2017</h4>
                             <p style="color:#2c3e50; font-size:130%;">
                               Data analysis at Brain Rehabilitation, Advanced Technology and Learning lab,  a Cognitive
-                              Neuroscience laboratory at KU.  Primarily involved in the extraction and
+                              Neuroscience laboratory at KU.  Primarily involved in the extraction algorithms and the
                                analysis of eye tracking data with the focus on studying children’s reading disabilities.
                              </p>
                                   </div>
@@ -266,8 +269,7 @@
 
 
   <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="arrows prev w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="arrows next w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+
     <span class=" demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class=" demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
     <span class=" demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
@@ -310,25 +312,26 @@ function showDivs(n) {
   	<!--publications -->
   	<div id="skillswrap" >
   		<div class="container" style="height:auto;">
-  			<div class="row">
+  			<div class="">
 
             <section id="publications" name="publications"></section>
 
             <div id="intro" style="opacity:0.85;">
               <div class="container" >
-                <div class="row">
+                <div class="footer-cont">
 
-                  <div class="col-lg-2 col-lg-offset-1" >
+                  <div class=" foot-header" >
                     <h2 style="color:#2c3e50;font-size:150%;"> <b>PUBLICATIONS</b></h2>
                     <hr align="left" width="100%" >
                   </div>
-                  <div class="col-lg-6" >
+                  <div class=" footer-header" >
                     <p style="color:#2c3e50;font-size:100%;">
 
           ​<!--/.Most recent at top-->
-          Ana V. Gonzalez ­Garduño and Anders Søgaard. 2018. Learning to predict readability using eye-movement data from natives and learners. The 32nd AAAI Conference on Artificial Intelligence (AAAI). New Orleans, Louisiana.<br><br>
+          Ana V. Gonzalez ­Garduño and Anders Søgaard . 2018. Learning to predict readability using gaze data from
+          natives and learners of English. AAAI Conference 2018. New Orleans, USA.<br><br>
 
-          Ana V. Gonzalez­ Garduño and Anders Søgaard . 2017. Using Gaze to Predict Text Readability. 12th
+          Ana V. Gonzalez­ Garduño and Anders Søgaard . 2017. Using Gaze to Predict Text Readability. 2th
           Workshop on Innovative Use of NLP for Building Educational Applications, EMNLP. Copenhagen,
           Denmark. <br><br>
 
@@ -354,13 +357,13 @@ function showDivs(n) {
   	<section id="contact" name="contact"></section>
   	<!--FOOTER DESCRIPTION -->
   	<div id="footwrap">
-  		<div class="container">
-  			<div class="row">
+  		<div class="container footer-cont">
+  			<div class="footer-div">
 
-  				<div class="col-lg-2 col-lg-offset-1">
+  				<div class="">
   					<h5>CONTACT</h5>
   				</div>
-  				<div class="col-lg-6">
+  				<div class="">
   					<p><t>Email</t><br/>
   						University email: ana@di.ku.dk  <br/>
               BotXO: ag@botxo.co
@@ -371,7 +374,7 @@ function showDivs(n) {
   					</p>
 
   				</div>
-  				<div class="col-lg-3">
+  				<div class="">
 
   					<p>
               <a href="#headerwrap">Back to top</i></a>
@@ -396,6 +399,9 @@ function showDivs(n) {
       ================================================== -->
 
       <script src="assets/js/bootstrap.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
+      <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+      <script src="assets/js/Chart.js"></script>
     </body>
 
 </html>
