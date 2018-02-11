@@ -89,6 +89,7 @@ background-color:white;}
    border-color: black;
    position: absolute;
    top:100%;
+   cursor: pointer;
    
 }
 
@@ -148,7 +149,7 @@ background-color:white;}
 
 .currentbox2 { display:inline-block;
   position: relative;
-	width: 350px;
+	width: 335px;
 	padding: 5px;
 	margin-left:32px;
 	border: 0px solid #D7D7D7;
@@ -383,10 +384,17 @@ sm {
 
 .footer-cont {
 	text-align: center;
+	width: 80%;
+	margin:auto;
 }
 
 .footer.div {
 	text-align: center;
+}
+
+.slides-div {
+	width: 80%;
+	margin:auto;
 }
 
 /*@media (min-width: 1440px) {
@@ -464,6 +472,8 @@ sm {
 	}
 	.footer-cont {
 		text-align: center;
+		margin:auto;
+
 	}
 	.foot-header {
 		text-align: center;
@@ -474,5 +484,18 @@ sm {
 	#headerwrap h1 {
 		font-size: 70px;
 		color: white;
+	}
+
+	.footer-cont {
+		width: 90%;
+	}
+
+	.slide-style {
+		width: auto;
+
+	}
+
+	.slide-p {
+		font-size: 14px;
 	}
  }
