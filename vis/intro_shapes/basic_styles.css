@@ -14,11 +14,9 @@
     border-radius: 50%;
 }
 html, body{
+    height: 100%;
     margin: 0;
     padding: 0;
-
-    width: 1000px;
-   
-    height: 1000px;
+    background-color: #FFCC00;
    
 }
