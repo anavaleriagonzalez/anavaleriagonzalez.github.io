@@ -25,11 +25,8 @@ a:hover {
 
 body
 {
-    margin-left:                       -512px;
-    margin-top:                        -384px;
     position:                        absolute;
     height:                             768px;
     width:                             1024px;
-    left:                                 50%;
-    top:                                  50%;
+
 }
