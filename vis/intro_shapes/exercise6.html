@@ -123,11 +123,11 @@ d3.queue()
     .defer(d3.csv, "data/completed_primary.csv")
     .await(ready);
 
-function ready(error, data, population) {
+function ready(error, data, comp_prim) {
   var populationById = {};
 
 
-  population.forEach(function(d) { populationById[d['country']] = +d['comp_prim']; });
+  comp_prim.forEach(function(d) { populationById[d['country']] = +d['comp_prim']; });
   
 
   svg.append("g")
