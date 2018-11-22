@@ -118,7 +118,7 @@ var path = d3.geoPath().projection(projection);
 svg.call(tip);
 
 queue()
-    .defer(d3.json, "https://gist.githubusercontent.com/abenrob/787723ca91772591b47e/raw/8a7f176072d508218e120773943b595c998991be/world-50m.json")
+    .defer(d3.json, "world-50m.json")
     .defer(d3.tsv, "data/world_population.tsv")
     .await(ready);
 
