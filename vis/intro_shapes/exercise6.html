@@ -161,7 +161,7 @@ function ready(error, data, population) {
         });
 
   svg.append("path")
-      .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
+      .datum(topojson.mesh(data.features, function(a, b) { return a.names !== b.country; }))
        // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
       .attr("class", "names")
       .attr("d", path);
