@@ -128,6 +128,7 @@ function ready(error, data, comp_prim) {
 
 
   comp_prim.forEach(function(d) { populationById[d['country']] = +d['comp_prim']; });
+  data.features.forEach(function(d) { d.comp_prim = populationById[d.name] });
   
   
   svg.append("g")
@@ -137,8 +138,7 @@ function ready(error, data, comp_prim) {
     .enter().append("path")
       .attr("d", path)
       .style("fill", function(d) { return color(populationById[d['country']]);
-                                 
-                                 console.log(populationById[d['country']])
+                                
                                  })
       .style('stroke', 'white')
       .style('stroke-width', 1.5)
