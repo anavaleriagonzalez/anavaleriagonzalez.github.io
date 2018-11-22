@@ -129,7 +129,7 @@ function ready(error, data, comp_prim) {
 
   comp_prim.forEach(function(d) { populationById[d['country']] = +d['comp_prim']; });
   
-  console.log(populationById)
+  
   svg.append("g")
       .attr("class", "countries")
     .selectAll("path")
