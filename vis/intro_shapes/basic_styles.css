@@ -8,6 +8,11 @@ html {
     height: 100%;
 }
 
+#wrapper {
+  width: 70%;     /* specify a width! */
+  margin: 0 auto; /* center */
+}
+
 .previous {
     background-color: #f1f1f1;
     color: black;
