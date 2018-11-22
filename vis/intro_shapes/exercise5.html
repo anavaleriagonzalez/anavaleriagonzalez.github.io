@@ -80,7 +80,7 @@
 <script src="http://d3js.org/d3.v4.min.js"></script>
 <script src="http://d3js.org/queue.v1.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
-<script src="d3-tip.js"></script>
+<script src="data/d3-tip.js"></script>
 <script>
 var format = d3.format(",");
 
@@ -118,12 +118,13 @@ var path = d3.geoPath().projection(projection);
 svg.call(tip);
 
 queue()
-    .defer(d3.json, "world_countries.json")
-    .defer(d3.tsv, "world_population.tsv")
+    .defer(d3.json, "https://gist.githubusercontent.com/abenrob/787723ca91772591b47e/raw/8a7f176072d508218e120773943b595c998991be/world-50m.json")
+    .defer(d3.tsv, "data/world_population.tsv")
     .await(ready);
 
 function ready(error, data, population) {
   var populationById = {};
+
 
   population.forEach(function(d) { populationById[d.id] = +d.population; });
   data.features.forEach(function(d) { d.population = populationById[d.id] });
