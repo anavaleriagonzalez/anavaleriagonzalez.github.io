@@ -133,10 +133,13 @@ function ready(error, data, comp_prim) {
   svg.append("g")
       .attr("class", "countries")
     .selectAll("path")
-      .data(comp_prim.features)
+      .data(data.features)
     .enter().append("path")
       .attr("d", path)
-      .style("fill", function(d) { return color(populationById[d['country']]); })
+      .style("fill", function(d) { return color(populationById[d['country']]);
+                                 
+                                 console.log(populationById[d['country']])
+                                 })
       .style('stroke', 'white')
       .style('stroke-width', 1.5)
       .style("opacity",0.8)
