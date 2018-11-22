@@ -8,9 +8,10 @@ html {
     height: 100%;
 }
 
-#wrapper {
-  width: 70%;     /* specify a width! */
-  margin: 0 auto; /* center */
+h1 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 32px;
 }
 
 .previous {
