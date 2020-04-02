@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <title>Your Survey</title>
+
+  <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+  </style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
+
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-blue">Home</a>
+
+   
+
+  </div>
+
+
+  <div class="w3-padding-large">
+
+ <div class="w3-row-padding w3-padding-16 w3-center">
+
+        <div class=w3-two-third w3-left-align w3-padding-16>
+            <h1 class="w3-text-grey w3-padding-16">Training and Evaluation Session
+    
+        </div>
+
+
+  {{message}}
+
+    <form action="#" id="survey_page" method="POST">
+      
+
+
+      <H3>General instructions go here...</H3>
+
+      {% for item in task %}
+
+        Performing task: {{item}}
+      {% endfor %}
+
+      <div >
+        <div >
+          {% for item in questions %}
+            <label for="question"><b><font style="color:#27AE60; font-size: large;">How do you think the model has classified this item?</font></b></label><br>
+            <img>
+            <select>
+
+              {% for each in dropdown_list %}
+                <option value="{{each}}">{{each}}</option>
+              {% endfor %}
+   
+            </select>
+          {% endfor %}
+        </div>
+
+      
+      <br>
+      <br>
+      <br>
+      
+      <H5>Please provide your name. This information will not be shared</H5>
+
+      <div >
+        <div >
+          <label for="first_name"><b><font style="color:#27AE60; font-size: large;">First name:</font></b><label><br>
+          <input type="text" name="first_name" value="{{first_name}}" required>
+        </div>
+
+        <div >
+          <label for="last_name"><b><font style="color:#27AE60; font-size: large;">Last name:</font></b></label><br>
+          <input type="text" name="last_name" value="{{last_name}}" required>
+        </div>
+      </div>
+
+
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <input type="submit" id="submitButton" value="Submit your survey" name="submit"
+
+        class="w3-button w3-blue w3-padding-large w3-large w3-margin-top">
+      </div>
+
+
+  </form>
+
+</div>
+
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+</body>
+</html>

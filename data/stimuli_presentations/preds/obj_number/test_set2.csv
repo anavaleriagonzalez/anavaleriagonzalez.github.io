@@ -1,0 +1,11 @@
+,Unnamed: 0,train_text,train_label,train_enlabel,train_model_pred,test_text,test_label,test_enlabel,test_model_pred
+61,61,Kali had a hunch that he was listening closely .,NN,0,0,"You want another pickle ? """,NN,0,0
+70,70,"As a mortal , he 'd had a happy-go-lucky personality .",NN,0,0,She reached the intersection of Symphony and Concord and turned to the school 's parking lot .,NN,0,0
+63,63,Kevin had that smirk on his face like he knew something that she didn 't know .,NN,0,0,""" You don 't think the shifters and werewolves are dying out , do you ? """,NNS,1,1
+33,33,The woman makes a slight gesture with her hand and the energy balls bounce away from her and are absorbed harmlessly into the blood stained hull .,NN,0,0,"His words sent a fluttering in my belly , and I desperately wanted to return the favor for him .",NN,0,0
+8,8,He tapped his pen on the edge of the table .,NN,0,0,"I have their backs , not like Obama who talks the talk but traps on the walk .",NNS,1,1
+41,41,Destroy the spoils of war .,NNS,1,1,"Trying to shake the feeling that I was stepping into a grave , I grabbed the ladder and started to climb down .",NN,0,0
+73,73,He opened the padlock on the lockup containing the van .,NN,0,0,"Right before the night swallowed everything below , I saw Roth flicker out of existence .",NN,0,0
+35,35,"Since Jon 's color seemed to be returning and he was just lying there comfortably , Maynard didn 't raise any objections .",NNS,1,1,The policeman offers Isaiah his wallet back and mumbles something to him .,NN,0,0
+32,32,""" I made a fresh batch just two days ago .",NN,0,0,and all its posing and posturing .,NNS,1,0
+36,36,"She braced her sagging spine against the tree , better than leaning on a man again .",NN,0,0,""" Don 't threaten the lad !",NN,0,0

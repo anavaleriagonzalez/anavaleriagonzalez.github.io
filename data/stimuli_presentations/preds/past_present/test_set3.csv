@@ -1,0 +1,11 @@
+,Unnamed: 0,train_text,train_label,train_enlabel,train_model_pred,test_text,test_label,test_enlabel,test_model_pred
+23,23,"A hand , drenched in blood , rises high in the air to stretch toward sunlight .",PRES,1,1,""" Make him stop , Elena ; he 's only doing more harm .",PRES,1,1
+68,68,Everyone froze -- even the cicadas that had been chirping in the trees and the crickets making music among the grass of the field ceased their calls .,PAST,0,0,""" Nothing extravagant . """,PRES,1,1
+25,25,Her breath bounced off the rock and blew back into her face .,PAST,0,0,"Hell , with those words , he owns me now .",PRES,1,1
+65,65,He stalked over to investigate .,PRES,1,0,The rest of us exchanged puzzled glances .,PAST,0,0
+24,24,""" He was my dad , "" he sobbed again .",PAST,0,0,""" I don 't suppose respect for your elders was something they taught you in your last pack , "" Jordan hissed .",PAST,0,1
+15,15,"Reaching his side , she sensed he would tell her what this was all about when he was ready .",PAST,0,0,She observed it all .,PAST,0,0
+3,3,I selected a copy of the book I 'd been reading from off of a shelf before settling down on the floor .,PAST,0,0,""" And a greater amount of irony surrounds that name than you can possibly imagine . """,PRES,1,1
+9,9,""" Okay , "" I mumbled , and watched him hurry away .",PRES,1,1,The level of attraction she felt for Quinlan mystified her .,PAST,0,0
+5,5,She belongs with me .,PRES,1,1,I more or less confessed as much to her on our drive to Halifax the next day .,PAST,0,0
+77,77,He shuffled his feet .,PAST,0,0,""" Yeah , but raises a lot of new ones .",PRES,1,1

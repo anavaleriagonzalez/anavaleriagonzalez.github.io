@@ -1,0 +1,11 @@
+,Unnamed: 0,train_text,train_label,train_enlabel,train_model_pred,test_text,test_label,test_enlabel,test_model_pred
+56,56,She smoked cigarettes through a filter .,PAST,0,0,Anne Hightower wrinkled her pointy nose .,PAST,0,0
+26,26,' Ah ah . ',PRES,1,1,""" How very ... very nauseating . """,PAST,0,1
+31,31,"He tries to slide the phone back into his pocket , but I quickly grab it away .",PRES,1,1,He nipped lightly on the corner of her mouth and then licked it to take away the sting .,PAST,0,0
+60,60,A strange emptiness hollows my chest .,PRES,1,1,""" I think we 're compatible , "" he groans against my mouth .",PRES,1,1
+49,49,""" Although ... "" Mary regarded her with a hint of curiosity .",PAST,0,0,""" Alright , "" he agrees .",PRES,1,1
+69,69,""" He loves you . """,PRES,1,1,Justine nods as she walks over to the bed and plops down allowing a sigh to escape .,PRES,1,1
+40,40,"I "" ve nothing to blame but my own foolishness .",PRES,1,1,"When Pete begins to tire , Steve gently puts his arms around him .",PRES,1,1
+44,44,"We both lean forward too , neither of us breathing as we strain to hear .",PRES,1,1,""" You deserve far better than me .",PRES,1,0
+0,0,""" Gavin , your parents are right here , ok ?",PRES,1,1,They flex their fingers as if readying to draw their weapons in an old fashion Wild West shootout .,PRES,1,1
+57,57,"It causes wars , yes , but it also spurs fantastic scientific advances and a desire to push on , to create .",PRES,1,1,He nibbled the Jaffa cake .,PAST,0,0

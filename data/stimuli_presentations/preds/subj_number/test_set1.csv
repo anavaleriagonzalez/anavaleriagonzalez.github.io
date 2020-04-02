@@ -1,0 +1,11 @@
+,Unnamed: 0,train_text,train_label,train_enlabel,train_model_pred,test_text,test_label,test_enlabel,test_model_pred
+56,56,A sob escaped me as our mouths moved together .,NN,0,0,The physicians here say you got lucky .,NNS,1,1
+26,26,"He looked at me , his beautiful bright blues eyes flooding with a sea of fear .",NNS,1,0,"Along this section of the coast the mountains were narrow and jagged , like the blade of a massive serrated knife .",NNS,1,1
+31,31,His audience howled and cheered as one well dressed fur ball approached the center and faced him .,NN,0,0,The witches were brilliant and I owed Tally my life for this .,NNS,1,1
+60,60,"The twins didn 't get to see Mac or his mom often , although they had come to the U.S. to visit a couple of times .",NNS,1,1,""" Not a mark on you , buddy .",NN,0,0
+49,49,The pilot was another matter .,NN,0,0,Zeus reached into his coat and removed a handgun .,NNS,1,1
+69,69,"Hades 's massive three-headed guardian of the Underworld couldn 't hurt the dead , but Pollux wasn 't afraid of a dog .",NN,0,0,"The remaining vehicles followed us into the fields west of the store , then turned west and lined up one after another .",NNS,1,1
+40,40,The vicar looked over at Haddington with a serious face .,NN,0,0,"James blows on his coffee , takes a sip and puts it down .",NNS,1,1
+44,44,"As he approached the trees , wolves ghosted out to overlook the herd .",NNS,1,1,Even demons have some dignity .,NNS,1,1
+0,0,"Part of me was disappointed , but the other part of me was charmed he would do something like that in an effort to help me .",NN,0,0,"As they neared the top , a moan wafted from the litter suspended below him .",NN,0,0
+57,57,"The tip scraped across the armor , failing to penetrate .",NN,0,0,""" Humans , "" he rasped , a note of irritation in his voice .",NNS,1,1
