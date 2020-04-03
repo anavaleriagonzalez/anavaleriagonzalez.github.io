@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-  <title>Your Survey</title>
+  <title>Reverse Turing Test</title>
 
   <style>
     html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
@@ -42,31 +42,70 @@
 
   {{message}}
 
-    <form action="#" id="survey_page" method="POST">
+    <form action="{{DIR}}" id="survey_page" method="POST">
       
 
 
-      <H3>General instructions go here...</H3>
+      <H3>The goal of this training and evaluation session is to provide you with examples </H3>
 
-      {% for item in task %}
+     
 
-        Performing task: {{item}}
-      {% endfor %}
+        Performing task: {{task}}
+      
 
       <div >
         <div >
-          {% for item in questions %}
-            <label for="question"><b><font style="color:#27AE60; font-size: large;">How do you think the model has classified this item?</font></b></label><br>
-            <img>
+          <H3>Training session</H3>
+          {% for n in range(25)%}
+            
+            {{texts[n]}}
+            <br>
+            <br>
+            <img src={{displays[n]}}>
+            <br>
+            <label for="question"><b><font style="color:#27AE60; font-size: large;">Model classification of this text</font></b></label><br>
+          
+            <br>
             <select>
 
-              {% for each in dropdown_list %}
-                <option value="{{each}}">{{each}}</option>
-              {% endfor %}
-   
+              <option value="{{labels[n]}}">{{labels[n]}}</option>
+              
+            
             </select>
+            <br>
+            <br>
+            <br>
+            <br>
+          <br>
           {% endfor %}
         </div>
+
+        <H3>Evaluation session</H3>
+        <div >
+          {% for n in range(10)%}
+            {{testtexts[n]}}
+
+            <br>
+            <img src={{testdisplays[n]}}>
+            <br>
+            <label for="question"><b><font style="color:#27AE60; font-size: large;">How do you think the model would classify this instance?</font></b></label><br>
+            <br>
+            <select>
+
+              {% for i in dropdown_list %}
+
+                <option value="{{i}}">{{i}}</option>
+              {% endfor %}
+              
+            
+            </select>
+            <br>
+            <br>
+            <br>
+            <br>
+          {% endfor %}
+        </div>
+
 
       
       <br>
@@ -102,7 +141,7 @@
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
 
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p> <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
 </footer>
 
 </body>
