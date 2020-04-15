@@ -1,20 +1,13 @@
 ,Unnamed: 0,train_text,train_label,train_enlabel,train_model_pred,test_text,test_label,test_enlabel,test_model_pred
 19,19,"My secretary timidly opens the door , fear written across her face .",PRES,1,1,""" Let 's try the right panel first , "" Dervish suggests .",PRES,1,1
 53,53,"Wind swirled through the doorway , bringing with it cold and a stench of something rotting .",PAST,0,0,""" And I 've never wanted you to go , "" he replies .",PRES,1,1
+486,486,""" Mmm ... "" Leaning over me , he pressed his lips to mine .",PAST,0,1,"Finally , we separate .",PRES,1,1
+508,508,"Once you put a line over two thousand miles from Houston to Greenbelt , you begged for a piggyback data slurp .",PRES,1,0,Fade jogged alongside me and I remembered our desperate journey to Nassau down below .,PAST,0,0
+520,520,"Landing without any hassle he straightened his clothes , dislodging a fizzy chew from his pocket in the process .",PRES,1,0,The look in his eyes as his expression crumbled .,PAST,0,0
+597,597,"Got nothing more to say about what happened to Laura . """,PAST,0,1,Loneliness crept in along with the amber glow of the lamps .,PAST,0,0
+661,661,People cheat on each other all the time .,PRES,1,0,""" Way to go , Caroline .",PRES,1,1
 109,109,"Waving his arm in a wide arc down past the waterfall , he describes the course of the river .",PRES,1,1,"Looking over at Pierre , Isabelle extends her arm toward him , "" Come here , Pierre . """,PRES,1,1
 117,117,"Virus giggled her hateful , buzzing laugh .",PAST,0,0,That he admits to .,PRES,1,1
-121,121,"' Aye ... Goodbye , brother ... Until the next life . '",PRES,1,1,""" Indeed , "" concluded the fifth and final monk .",PAST,0,0
-46,46,He tends vast furnaces and cauldrons of molten metal that could burn him to the bone .,PRES,1,1,He tapped the phone and then let out a sigh before standing up and walking over to me .,PAST,0,0
-3,3,I selected a copy of the book I 'd been reading from off of a shelf before settling down on the floor .,PAST,0,0,""" And a greater amount of irony surrounds that name than you can possibly imagine . """,PRES,1,1
-111,111,"Once again he thanked that gut feeling , that innate sense , call it what you will .",PAST,0,0,"She motions to Duval , who shows me to a chair of my own and hands me a goblet of wine .",PRES,1,1
-25,25,Her breath bounced off the rock and blew back into her face .,PAST,0,0,"Hell , with those words , he owns me now .",PRES,1,1
-118,118,Mia pushes back her plate .,PRES,1,1,Neither of them possessed an impulsive personality .,PAST,0,0
-99,99,""" Could you describe what you mean ? """,PRES,1,1,"Someone else overheard her conversation . """,PAST,0,0
-86,86,"Kaspar stared at the ground , arms crossed , defeated .",PAST,0,0,Beth walks up beside me .,PRES,1,1
-27,27,""" There you have it , Laura . """,PRES,1,1,"You tortured and then killed him , and I wouldn 't mind shooting you down like the sick dog you are .",PRES,1,0
-135,135,""" Better "" n you "" d imagine , sir ! """,PRES,1,1,""" Rachel accepts the risks .",PRES,1,1
-47,47,But he seized her arm and forced her up against the vanity .,PAST,0,0,"The little bunny nods , sniffing .",PRES,1,1
-14,14,A disgusted sound rumbled from Beth 's throat .,PAST,0,0,"Her expressions , too , especially when she frowned and tipped her eyes up , lips pursed .",PAST,0,1
 48,48,Dark bristles shadowed his jaw .,PAST,0,0,He nods his head in agreement with the plan and tells Dane and Monti to proceed .,PRES,1,1
 120,120,""" He likes to tease all the pretty girls who come in . """,PRES,1,1,A cheer greeted Moist when he came down the steps .,PAST,0,0
 44,44,"We both lean forward too , neither of us breathing as we strain to hear .",PRES,1,1,""" You deserve far better than me .",PRES,1,0
@@ -24,3 +17,10 @@
 58,58,"As I was getting tucked into bed , my phone vibrated , indicating I had a text .",PAST,0,0,She gestured toward where they 'd come from .,PAST,0,0
 49,49,""" Although ... "" Mary regarded her with a hint of curiosity .",PAST,0,0,""" Alright , "" he agrees .",PRES,1,1
 29,29,"Carey 's husband kills Carey 's lover , then flees .",PRES,1,1,""" May I get you anything else , madam ? """,PRES,1,1
+7,7,I 'd left her for a little bit with an easy chore and women I trusted to keep an eye on her .,PAST,0,1,She aimed a sharp look at him while he maintained an innocent expression .,PAST,0,0
+100,100,""" Oh , God ... "" Curtis didn 't move .",PAST,0,1,His fingers crept across my right breast and paused .,PAST,0,0
+102,102,Whatever organic material they are made from begins quickly melting once they die .,PRES,1,0,"Her voice echoed in the cavern , seeming to come from many mouths at once .",PAST,0,0
+184,184,"Got to do it right for my buddy from the Carolinas . """,PAST,0,1,"Then she walks out quietly , her ever faithful canine companion at her heels .",PRES,1,1
+232,232,""" She is a woman , "" he teased .",PRES,1,0,"His arms and legs thickened , tearing through his clothes .",PAST,0,0
+357,357,""" Fine , "" I said , my tone clipped .",PAST,0,1,""" Elevator C , "" and pointed to the back of the library .",PRES,1,0
+444,444,Wade 's big body diving through the air toward the dog .,PRES,1,0,Your daughter attacked me earlier with her zapper .,PAST,0,0
