@@ -1,7 +1,8 @@
 ,Unnamed: 0,train_text,train_label,train_enlabel,train_model_pred,test_text,test_label,test_enlabel,test_model_pred
-56,56,A sob escaped me as our mouths moved together .,NN,0,0,The physicians here say you got lucky .,NNS,1,1
-26,26,"He looked at me , his beautiful bright blues eyes flooding with a sea of fear .",NNS,1,0,"Along this section of the coast the mountains were narrow and jagged , like the blade of a massive serrated knife .",NNS,1,1
-31,31,His audience howled and cheered as one well dressed fur ball approached the center and faced him .,NN,0,0,The witches were brilliant and I owed Tally my life for this .,NNS,1,1
+81,81,"Daemon 's scowl went up a notch , and I grinned .",NN,0,0,Anyone with a shred of perceptiveness could see that the point of this dinner wasn 't to share a meal with old family friends .,NN,0,1
+90,90,""" The witness didn 't see anything like a conversation going on . """,NN,0,0,Rage flamed inside him at the insult .,NN,0,1
+108,108,"The gnomes whirled , hissing and confused , looking from me to the intruder and back again .",NNS,1,1,"Across the horizon , the ocean swelled with their blue numbers , claws clacking across the waves .",NN,0,1
+119,119,"Her grandmother noticed , as well , and commented on the beautiful music , wondering which channel the concert was on .",NN,0,0,"In it , Nicole lay in his bed , completely unclothed beside him , her impatient hands smoothing over his body .",NN,0,1
 60,60,"The twins didn 't get to see Mac or his mom often , although they had come to the U.S. to visit a couple of times .",NNS,1,1,""" Not a mark on you , buddy .",NN,0,0
 49,49,The pilot was another matter .,NN,0,0,Zeus reached into his coat and removed a handgun .,NNS,1,1
 69,69,"Hades 's massive three-headed guardian of the Underworld couldn 't hurt the dead , but Pollux wasn 't afraid of a dog .",NN,0,0,"The remaining vehicles followed us into the fields west of the store , then turned west and lined up one after another .",NNS,1,1
@@ -9,3 +10,7 @@
 44,44,"As he approached the trees , wolves ghosted out to overlook the herd .",NNS,1,1,Even demons have some dignity .,NNS,1,1
 0,0,"Part of me was disappointed , but the other part of me was charmed he would do something like that in an effort to help me .",NN,0,0,"As they neared the top , a moan wafted from the litter suspended below him .",NN,0,0
 57,57,"The tip scraped across the armor , failing to penetrate .",NN,0,0,""" Humans , "" he rasped , a note of irritation in his voice .",NNS,1,1
+23,23,Terror filled her eyes .,NN,0,0,"Without boundaries or markers , the caravan took to the west .",NN,0,1
+33,33,"Mat 's attorney yelled at Phil . """,NN,0,0,The luckiest reindeer ever to grace wool .,NN,0,1
+45,45,"If you 're at all interested , the other ladies are in the sitting room , a few doors down on the right .",NNS,1,1,Nobody should have that much power over him .,NN,0,1
+53,53,""" Aly will always be enough , "" shot from my mouth as my only defense .",NN,0,0,"Anyone could have paid for you , and they wouldn 't be nearly as ... knowledgeable of your desires . """,NN,0,1
