@@ -13,24 +13,21 @@
   }
 
   .container {
-      display: -webkit-flexbox;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-flex-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      justify-content: center;
-  }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
   </style>
 </head>
 
 
 <body >
   <div class="container">
-    <h1 style="text-align:center;">Ana Valeria González</h1>
-    <h3 style="text-align:center;">PhD student in Machine Learning and Natural Language Processing</h3>
+    <p style="text-align:center;color:#001a33;font-size:22px">Ana Valeria González</p>
+    <p style="text-align:center;color:#001a33;font-size:13px">PhD student in Machine Learning and Natural Language Processing</p>
 
   </div>
   </body>
